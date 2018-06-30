@@ -82,8 +82,6 @@ else
         # Reinitialize the helper for device
         setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT" false "$CLEANUP"
 
-        extract "$MY_DIR"/../$DEVICE/proprietary-files-qc.txt "$SRC"
-
         extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC"
     fi
 

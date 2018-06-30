@@ -55,9 +55,6 @@ if [ -s "$MY_DIR"/../$DEVICE/proprietary-files.txt ]; then
     # Copyright headers and guards
     write_headers
 
-    # The qualcomm blobs
-    write_makefiles "$MY_DIR"/../$DEVICE/proprietary-files-qc.txt true
-
     # The standard device blobs
     write_makefiles "$MY_DIR"/../$DEVICE/proprietary-files.txt
 
