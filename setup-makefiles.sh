@@ -36,7 +36,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" "true" "$1"
 
 # Copyright headers and guards
-write_headers "lv517 ph2n sf340n cv1"
+write_headers "lv517 ph2n sf340n cv1 lv3"
 
 # The standard common blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt
