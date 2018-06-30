@@ -95,9 +95,6 @@ vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 
-# Blur - from santoni (Redmi 4X)
-vendor/lib64/libuiblur.so
-
 # CNE - from santoni (Redmi 4X)
 -priv-app/CNEService/CNEService.apk
 bin/cnd
@@ -162,9 +159,7 @@ vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libqisl.so
 vendor/lib/librpmb.so
-vendor/lib/libsecureui.so
 vendor/lib/libsecureui_svcsock.so
-vendor/lib/libsecureuisvc_jni.so
 vendor/lib/libssd.so
 vendor/lib/libtzdrmgenprov.so
 
@@ -344,7 +339,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 vendor/bin/qti
 vendor/lib/libconfigdb.so
-vendor/lib/libdatactrl.so
+#vendor/lib/libdatactrl.so
 vendor/lib/liblqe.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libnetmgr.so
